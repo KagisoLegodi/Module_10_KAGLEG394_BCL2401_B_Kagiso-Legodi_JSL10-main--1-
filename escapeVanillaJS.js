@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const mostRecentBook = findMostRecentBook(books);
         // Fixed bug: Correct element ID
         document.getElementById(
-          "result"
+          "room1Result"
         ).textContent = `The key to the next room is: ${mostRecentBook.title}`;
       });
   });
